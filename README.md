@@ -5,6 +5,8 @@ This repository contains all the related artifacts (models, datasets, code) of t
 
 ## Datasets
 
+The following is an overview of the datasets utilized in this work. The datasets in the top half are synthetic and the bottom ones, the evaluation sets, are humanly annotated. The error type ERRANT refers to the automatic annotation tool ERRANT, which automatically annotates parallel sentences with error-type information. Tokens information is based on OpenAI's tokenizer tiktoken with gpt2 encodings.
+
 | Dataset Name                   | Split  | Sentences | Tokens  | Error Types | Domain        |
 |--------------------------------|-------|-----------|---------|-------|---------------|
 | [OSCAR GEC (ours)](https://huggingface.co/datasets/asimokby/Turkish-OSCAR-GEC)              | Train  | 2.3m       | 213.2m  | ERRANT | Web            |
@@ -18,11 +20,13 @@ In addition to the above datasets, we also open-source the Tukrish Spelling Dict
 
 ## Models
 
-Fine-tuned mT5 models for the Turish Grammatical Error Correction task on our two datasets: OSCAR GEC and GPT GEC. The models are available on HuggingFace:
+The following are our fine-tuned mT5 models for the Turish Grammatical Error Correction task on our two training datasets: OSCAR GEC and GPT GEC. The models are available on HuggingFace:
 
 Model 1: [Turkish-OSCAR-GEC](https://huggingface.co/asimokby/Turkish-OSCAR-GEC-v0)
 
 Model 2: [Turkish-GPT-GEC](https://huggingface.co/asimokby/Turkish-GPT-GEC-v0)
+
+## Results
 
 The following are the results of Turkish GEC models on 3 evaluation sets: 
 
