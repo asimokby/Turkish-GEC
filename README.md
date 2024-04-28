@@ -14,6 +14,7 @@ This repository contains all the related artifacts (models, datasets, code) of t
 | Movie Reviews (Kara et al, 2023)     | Test   | 300        | 2.7k    | 25      | Movie Reviews  |
 | Turkish Tweets (Koksal et al, 2020a) | Test   | 2k         | 116.2k  | 13      | Tweets          |
 
+In addition to the above datasets, we also open-source the Tukrish Spelling Dictionary developed in this work. You may access it from [here](https://huggingface.co/datasets/asimokby/Turkish-Spelling-Dictionary)
 
 ## Models
 
