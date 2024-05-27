@@ -1,6 +1,6 @@
 # Turkish-GEC
 
-This repository contains all the related artifacts (models, datasets, code) of the currently under review paper: [**Organic Data-Driven Approach for Turkish Grammatical Error Correction and LLMs**](https://arxiv.org/abs/2405.15320)
+This repository contains all the related artifacts (models, datasets, code) of the paper [**Organic Data-Driven Approach for Turkish Grammatical Error Correction and LLMs**](https://arxiv.org/abs/2405.15320)
 
 
 ## Datasets
